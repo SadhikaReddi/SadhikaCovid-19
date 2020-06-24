@@ -31,7 +31,7 @@ function App() {
 
   const filterCountries = results.filter(item => 
     {
-    return searchCountries !== "" ? item.country.includes(searchCountries): item;
+      return searchCountries !== "" ? item.country.toLowerCase().includes(searchCountries.toString().toLowerCase()): item;
   });
 
   const countries = filterCountries.map((data, i) => {
