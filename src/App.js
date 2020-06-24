@@ -54,7 +54,6 @@ function App() {
           <Card.Text>Today's deaths {data.todayDeaths}</Card.Text>
           <Card.Text>Active {data.active}</Card.Text>
           <Card.Text>Crtical {data.critical}</Card.Text>
-
         </Card.Body>
         </Card>
     );
@@ -76,7 +75,7 @@ function App() {
    text={"white"} 
    className="text-center" 
    style={{margin:"10px"}}>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" />
     <Card.Body>
       <Card.Title>Cases</Card.Title>
       <Card.Text> {latest.cases}</Card.Text>
@@ -90,7 +89,7 @@ function App() {
    text={"white"} 
    className="text-center" 
    style={{margin:"10px"}}>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" />
     <Card.Body>
       <Card.Title>Deaths</Card.Title>
       <Card.Text>{latest.deaths}</Card.Text>
@@ -104,7 +103,7 @@ function App() {
    text={"white}"}
    className="text-center"
     style={{margin:"10px"}}>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top"  />
     <Card.Body>
       <Card.Title>Recovered</Card.Title>
       <Card.Text> {latest.recovered}</Card.Text>
