@@ -39,7 +39,7 @@ function App() {
       <Card
       key = {i}
       bg="light"
-      text="dark" 
+      text= {"dark"}
       className="text-center" 
       style={{margin:"10px"}}
       >
@@ -75,7 +75,7 @@ function App() {
    text={"white"} 
    className="text-center" 
    style={{margin:"10px"}}>
-    <Card.Img variant="top" />
+    <Card.Img variant="top"/>
     <Card.Body>
       <Card.Title>Cases</Card.Title>
       <Card.Text> {latest.cases}</Card.Text>
@@ -89,7 +89,7 @@ function App() {
    text={"white"} 
    className="text-center" 
    style={{margin:"10px"}}>
-    <Card.Img variant="top" />
+    <Card.Img variant="top"/>
     <Card.Body>
       <Card.Title>Deaths</Card.Title>
       <Card.Text>{latest.deaths}</Card.Text>
@@ -103,7 +103,7 @@ function App() {
    text={"white}"}
    className="text-center"
     style={{margin:"10px"}}>
-    <Card.Img variant="top"  />
+    <Card.Img variant="top"/>
     <Card.Body>
       <Card.Title>Recovered</Card.Title>
       <Card.Text> {latest.recovered}</Card.Text>
