@@ -15,7 +15,7 @@ function App() {
     axios
       .all([
     axios.get("https://corona.lmao.ninja/v2/all"),
-    axios.get("https://corona.lmao.ninja/v2/countries?sort=country")
+    axios.get("https://corona.lmao.ninja/v2/countries")
         ])
     .then(responseArr => {
       setLatest(responseArr[0].data);
